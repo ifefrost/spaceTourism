@@ -1,5 +1,3 @@
-import "../assets/styles/home.css";
-
 const Home = () => {
   return (
     <div className='mx-auto text-center'>
