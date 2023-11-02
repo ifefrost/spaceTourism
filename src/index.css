@@ -11,35 +11,6 @@
   color: #ffffff;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Bellefair", serif;
-  font-weight: 400;
-}
-h1 {
-  font-size: 9.375rem;
-}
-h2 {
-  font-size: 6.25rem;
-}
-h3 {
-  font-size: 3.5rem;
-}
-h4 {
-  font-size: 2rem;
-}
-h5 {
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: 400;
-  font-size: 1.75rem;
-}
-h6 {
-  font-family: "Bellefair", serif;
-  font-weight: 400;
-  font-size: 1.75rem;
-}
 nav {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 400;
@@ -51,6 +22,10 @@ nav {
 }
 .barlow {
   font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+.barlowcond {
+  font-family: "Barlow Condensed", sans-serif;
   font-weight: 400;
 }
 .purp {

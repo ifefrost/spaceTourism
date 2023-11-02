@@ -5,11 +5,6 @@ export default {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
-    letterSpacing: {
-      farthest: ".4.75px",
-      farther: ".2.7px",
-      far: ".2.35px",
-    },
     extend: {
       backgroundImage: {
         'home-mobile' : "url('./src/assets/home/background-home-mobile.jpg')",
