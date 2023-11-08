@@ -15,9 +15,9 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div className='flex justify-center mt-20 lg:w-1/2'>
+      <div className='flex justify-center mt-20 z-10 lg:w-1/2'>
         <button className='bg-white w-[150px] h-[150px] rounded-full lg:w-[300px] lg:h-[300px] relative'>
-          <p className='text-black belle text-lg uppercase lg:text-4xl'>
+          <p className='text-black belle text-lg uppercase lg:text-4xl z-10'>
             Explore
           </p>
         </button>

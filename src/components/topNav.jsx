@@ -14,7 +14,7 @@ const TopNav = ({ curPage }) => {
           <img src={logo} alt='logo' className='w-[24px] md:w-[48px]' />
           <hr className='hidden lg:block w-[90%] absolute top-5 -right-5 z-10 border-gray-700 border-b-1  ' />
         </div>
-        <div className='purp z-10 w-[24px] md:hidden'>
+        <div className='purp z-30 w-[24px] md:hidden'>
           <div
             onClick={() => showMenu(true)}
             data-drawer-target='menu-navigation'
@@ -86,7 +86,7 @@ const TopNav = ({ curPage }) => {
       <div
         id='menu-navigation'
         aria-labelledby='menu-navigation-label'
-        className={`fixed top-0 -right-64 bottom-0 backdrop-filter backdrop-blur-lg bg-white bg-opacity-10 h-screen w-64 md:hidden overflow-y-auto ${
+        className={`fixed top-0 -right-64 bottom-0 backdrop-filter backdrop-blur-lg z-20 bg-white bg-opacity-10 h-screen w-64 md:hidden overflow-y-auto ${
           menu
             ? "transition-transform -translate-x-full"
             : "transition-transform translate-x-full"

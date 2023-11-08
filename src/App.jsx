@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div className={`${"bg" + curPage} min-h-screen`}>
-        <div className="mx-5 flex flex-col h-full md:container md:mx-auto">
+        <div className="mx-5 flex flex-col md:container md:mx-auto">
           <TopNav curPage={curPage} />
           <Routes>
             <Route path='/' element={<Home />} />
